@@ -12,7 +12,7 @@ var headers = {
 var body = {
   "request": {
     "message": "This should be the commit message",
-    "branch":"master"
+    "branch": "master"
   }
 }
 
