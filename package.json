@@ -1,0 +1,22 @@
+{
+  "name": "travis-ci-actions",
+  "version": "0.0.1",
+  "description": "The home of GitHub Actions for Travis CI",
+  "main": "travis-ci-actions",
+  "scripts": {
+    "trigger-build": "node create-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travis-ci/actions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travis-ci/actions/issues"
+  },
+  "homepage": "https://github.com/travis-ci/actions#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
