@@ -1,3 +1,13 @@
+var sys = require('sys')
+
+var exec = require('child_process').exec;
+
+function puts(error, stdout, stderr) { sys.puts(stdout) }
+
+exec("pwd", puts)
+exec("ls -la", puts);
+
+
 const axios = require('axios')
 
 const repository = encodeURIComponent(process.env.GITHUB_REPOSITORY)
