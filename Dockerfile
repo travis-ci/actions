@@ -10,5 +10,6 @@ LABEL "homepage"="http://travis-ci.com"
 LABEL "maintainer"="Travis CI <support+github-actions@travis-ci.com>"
 
 ADD create-build.js /create-build.js
+ADD entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT [ "npm", "run", "trigger-build" ]
+ENTRYPOINT ["/entrypoint.sh"] 
