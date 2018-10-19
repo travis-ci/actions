@@ -11,4 +11,4 @@ LABEL "maintainer"="Travis CI <support+github-actions@travis-ci.com>"
 
 ADD create-build.js /create-build.js
 
-ENTRYPOINT [ "/usr/bin/node", "/create-build.js" ]
+ENTRYPOINT [ "node", "/create-build.js" ]
