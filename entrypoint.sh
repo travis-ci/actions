@@ -5,4 +5,4 @@ set -e
 pwd
 ls -la
 
-sh -c "npm run trigger-build"
+sh -c "node create-build.js"
