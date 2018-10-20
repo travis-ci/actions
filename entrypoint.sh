@@ -5,4 +5,4 @@ set -e
 pwd
 ls -la
 
-sh -c "node create-build.js"
+sh -c "cd / && node create-build.js"
