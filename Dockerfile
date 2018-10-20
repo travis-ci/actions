@@ -9,6 +9,9 @@ LABEL "repository"="http://github.com/travis-ci/actions"
 LABEL "homepage"="http://travis-ci.com"
 LABEL "maintainer"="Travis CI <support+github-actions@travis-ci.com>"
 
+COPY package*.json ./
+RUN npm install
+
 ADD create-build.js /create-build.js
 ADD entrypoint.sh /entrypoint.sh
 
