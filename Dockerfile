@@ -3,7 +3,7 @@ FROM node:10-alpine
 LABEL "com.github.actions.name"="Travis CI"
 LABEL "com.github.actions.description"="Start a build on Travis CI"
 LABEL "com.github.actions.icon"="activity"
-LABEL "com.github.actions.color"="#eefcff"
+LABEL "com.github.actions.color"="white"
 
 LABEL "repository"="http://github.com/travis-ci/actions"
 LABEL "homepage"="http://travis-ci.com"
